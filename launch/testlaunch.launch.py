@@ -6,5 +6,7 @@ def generate_launch_description():
         Node(
             package='rplidar_ros',
             executable='rplidar_node',
-        )
+            name='rplidar_node',
+            output='screen',
+        ),
     ])
